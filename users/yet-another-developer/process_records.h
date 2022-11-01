@@ -107,3 +107,7 @@ bool process_record_keymap( uint16_t keycode, keyrecord_t *record);
 
 #define UC_IRNY UC(0x2E2E)
 #define UC_CLUE UC(0x203D)
+
+/* Mod Tap and Layer Tap shortened keycodes */
+#define HY_ESC  LT(_HYPER,KC_ESC)
+#define HY_QUOT LT(_HYPER,KC_QUOT)
