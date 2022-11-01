@@ -20,4 +20,4 @@ NKRO_ENABLE       = no
 MACROS_ENABLED    = no
 
 # User Defined Features
-NO_SECRETS        = no
+NO_SECRETS        = yes
