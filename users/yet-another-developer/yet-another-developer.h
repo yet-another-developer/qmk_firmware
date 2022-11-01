@@ -42,6 +42,7 @@ enum userspace_layers {
     _RAISE,
     _ADJUST,
     _HYPER,
+    _META,
 };
 
 bool          mod_key_press_timer(uint16_t code, uint16_t mod_code, bool pressed);
