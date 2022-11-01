@@ -42,7 +42,7 @@ extern keymap_config_t keymap_config;
      OS_LSFT,LCTL_T(K21),K22,    K23,     K24,     K25,                                        K26,    K27,    K28,    K29,RCTL_T(K2A),     OS_RSFT, \
       KC_LCTL, KC_LGUI, KC_LALT, KC_LALT,                                                                    KC_LEFT, KC_DOWN, KC_UP,       KC_RIGHT, \
                                                   SP_LWER,                                            ET_RAIS,                                        \
-                                         OS_LGUI, SP_LWER, KC_DEL,                           KC_BSPC, ET_RAIS,  OS_RGUI                               \
+                                         OS_LGUI, SP_LWER, MT_DEL,                           HY_BSPC, ET_RAIS,  OS_RGUI                               \
     )
 
 #define LAYOUT_ergodash_pretty_base_wrapper(...)       LAYOUT_ergodash_pretty_base(__VA_ARGS__)
