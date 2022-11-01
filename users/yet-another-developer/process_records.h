@@ -111,3 +111,8 @@ bool process_record_keymap( uint16_t keycode, keyrecord_t *record);
 /* Mod Tap and Layer Tap shortened keycodes */
 #define HY_ESC  LT(_HYPER,KC_ESC)
 #define HY_QUOT LT(_HYPER,KC_QUOT)
+
+#define HY_DEL  LT(_HYPER, KC_DEL)
+#define HY_BSPC LT(_HYPER, KC_BSPC)
+
+#define MT_DEL  LT(_META, KC_DEL)
