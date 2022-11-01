@@ -27,9 +27,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 /* Select hand configuration */
 
-//#define MASTER_LEFT
-#define MASTER_RIGHT /* Cable connected to the right split keyboard */
-// #define EE_HANDS
+#define MASTER_LEFT /* Cable connected to the left split keyboard */
+//#define MASTER_RIGHT
+//#define EE_HANDS
 
 #define AUTO_SHIFT_TIMEOUT 210
 
