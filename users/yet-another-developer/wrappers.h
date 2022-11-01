@@ -136,7 +136,7 @@ NOTE: These are all the same length.  If you do a search/replace
 
 
 #define _________________LOWER_L1__________________        KC_EXLM, KC_AT,   KC_HASH, KC_DLR,  KC_PERC
-#define _________________LOWER_L2__________________        KC_F1,   KC_F2,   LCTL_T(KC_F3),   KC_F4,   KC_F5
+#define _________________LOWER_L2__________________        _______, _______, LCTL_T(KC_F3), _______, _______
 #define _________________LOWER_L3__________________        _________________FUNC_RIGHT________________
 
 #define _________________LOWER_R1__________________        KC_CIRC, KC_AMPR, KC_ASTR, KC_LPRN, KC_RPRN
