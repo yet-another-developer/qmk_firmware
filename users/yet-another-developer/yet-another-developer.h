@@ -36,8 +36,8 @@ enum userspace_layers {
     _WORKMAN,
     _UNICODE,
     _MODS, /* layer 8 */
-    _MACROS,
-    _MEDIA,
+  //  _MACROS,
+  //  _MEDIA,
     _LOWER,
     _RAISE,
     _ADJUST,
