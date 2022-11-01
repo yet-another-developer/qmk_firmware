@@ -17,6 +17,15 @@ cd ~/qmk_firmware
 make ergodash/rev1:yet-another-developer
 ```
 
+## Related folders
+
+ - Compiling: users/yet-another-developer/yet-another-developer.c                              [OK]
+ - Compiling: users/yet-another-developer/process_records.c                                    [OK]
+ - Compiling: users/yet-another-developer/leader.c                                             [OK]
+ - Compiling: keyboards/ergodash/ergodash.c                                                    [OK]
+ - Compiling: keyboards/ergodash/rev1/rev1.c                                                   [OK]
+ - Compiling: keyboards/ergodash/rev1/keymaps/yet-another-developer/keymap.c                   [OK]
+
 ## Reference / Inspiration
  - /u/kuchosauronad0
  - /u/drashna
