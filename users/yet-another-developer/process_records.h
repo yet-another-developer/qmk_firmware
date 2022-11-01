@@ -116,3 +116,5 @@ bool process_record_keymap( uint16_t keycode, keyrecord_t *record);
 #define HY_BSPC LT(_HYPER, KC_BSPC)
 
 #define MT_DEL  LT(_META, KC_DEL)
+
+#define SU_BSPC LT(_SUPER, KC_BSPC)
