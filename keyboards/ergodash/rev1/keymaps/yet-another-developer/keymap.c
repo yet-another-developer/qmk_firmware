@@ -85,17 +85,21 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     _________________COLEMAK_L3________________, _________________COLEMAK_R3________________
   ),
 
+#ifdef DVORAK_ENABLE
   [_DVORAK] = LAYOUT_ergodash_pretty_base_wrapper(
     _________________DVORAK_L1_________________, _________________DVORAK_R1_________________,
     _________________DVORAK_L2_________________, _________________DVORAK_R2_________________,
     _________________DVORAK_L3_________________, _________________DVORAK_R3_________________
   ),
+#endif
 
+#ifdef WORKMAN_ENABLE
   [_WORKMAN] = LAYOUT_ergodash_pretty_base_wrapper(
     _________________WORKMAN_L1________________, _________________WORKMAN_R1________________,
     _________________WORKMAN_L2________________, _________________WORKMAN_R2________________,
     _________________WORKMAN_L3________________, _________________WORKMAN_R3________________
   ),
+#endif
 
 #ifdef UNICODEMAP_ENABLE
   [_UNICODE] = LAYOUT_ergodash_pretty_base_wrapper(

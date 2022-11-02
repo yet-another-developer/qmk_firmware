@@ -32,8 +32,12 @@ enum userspace_layers {
     _QWERTY  = 0,
     _NUMLOCK = 0,
     _COLEMAK,
+#ifdef DVORAK_ENABLE
     _DVORAK,
+#endif
+#ifdef WORKMAN_ENABLE
     _WORKMAN,
+#endif
     _UNICODE,
     _MODS, /* layer 8 */
   //  _MACROS,
