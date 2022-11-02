@@ -45,6 +45,7 @@ enum userspace_layers {
     _LOWER,
     _RAISE,
     _ADJUST,
+    _NUMFUNC,
     _HYPER,
     _META,
     _SUPER,

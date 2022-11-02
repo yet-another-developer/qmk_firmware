@@ -118,3 +118,6 @@ bool process_record_keymap( uint16_t keycode, keyrecord_t *record);
 #define MT_DEL  LT(_META, KC_DEL)
 
 #define SU_BSPC LT(_SUPER, KC_BSPC)
+/* NUMFUNC */
+#define NF_ENT  LT(_NUMFUNC, KC_ENT)
+#define NF_CBR  LT(_NUMFUNC, KC_RCBR)
