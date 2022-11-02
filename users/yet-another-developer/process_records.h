@@ -121,3 +121,7 @@ bool process_record_keymap( uint16_t keycode, keyrecord_t *record);
 /* NUMFUNC */
 #define NF_ENT  LT(_NUMFUNC, KC_ENT)
 #define NF_CBR  LT(_NUMFUNC, KC_RCBR)
+
+/* Misc shortened keycodes */
+
+#define CMD_TAB LGUI(KC_TAB)
