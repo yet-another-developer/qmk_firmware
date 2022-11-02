@@ -183,7 +183,7 @@ NOTE: These are all the same length.  If you do a search/replace
 
 
 
-#define _________________SUPER_L1__________________        ___________________BLANK___________________
+#define _________________SUPER_L1__________________        _______, _______, A(KC_F), _______, _______
 #define _________________SUPER_L2__________________        S(A(KC_A)),S(A(KC_R)), S(A(KC_S)), S(A(KC_T)), _______
 #define _________________SUPER_L3__________________        S(A(KC_Z)),S(A(KC_X)), S(A(KC_C)), S(A(KC_V)), _______
 
