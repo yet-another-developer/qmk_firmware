@@ -17,6 +17,20 @@ cd ~/qmk_firmware
 make ergodash/rev1:yet-another-developer
 ```
 
+
+## Create new layer
+
+Steps
+ 1. Add keymap matrix in (a). Copy structure of `[_LOWER] = LAYOUT_ergodash_pretty_wrapper(`
+ 2. In (b) `userspace_layers`, add new layer in enum.
+ 3. In (c), #define your new layer's L1 L2 L3 R1 R2 R3
+
+Files
+ a. qmk_firmware/keyboards/ergodash/rev1/keymaps/yet-another-developer/keymap.c
+ b. qmk_firmware/users/yet-another-developer/yet-another-developer.h
+ c. qmk_firmware/users/yet-another-developer/wrappers.h 
+
+
 ## Related folders
 
  - Compiling: users/yet-another-developer/yet-another-developer.c                              [OK]
